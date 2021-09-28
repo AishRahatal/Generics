@@ -78,7 +78,7 @@ namespace GenericPractice
             Console.WriteLine("Maximum value :  " + d);
             Console.WriteLine("--------------------------------");
             Console.WriteLine("-------------UC4------------------");
-            //Taking more than 3 numbers-UC4
+            //Taking more than 3 numbers-UC4 and Refactor2 using generic class to find maximum
             int[] intArray = { 112, 344, 432, 555, 678 };
             GenericMax<int> generic = new GenericMax<int>(intArray);
             generic.PrintMaxValue();
